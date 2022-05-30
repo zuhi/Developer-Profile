@@ -1,0 +1,42 @@
+input[type=text], select, textarea{
+    /* width: 709px; */
+    width: 500px;
+    height: 62px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.searchButton {
+
+    background-color:  #D0CDE1;
+    border: none;
+    padding: 2px;
+
+  }
+  ::placeholder {
+    color:rgb(128, 113, 113);
+    opacity: 1; 
+    font-family: 'Nunito Sans';
+  }
+
+.searchSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 821px; */
+    height: 82px;
+    background-color:  #D0CDE1;
+    border-radius: 15px;
+}
+
+.outer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  row-gap: 10px;
+}
+
+.fa{
+    font-size: 35px;
+}

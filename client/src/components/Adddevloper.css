@@ -1,0 +1,19 @@
+.add-dev-box{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    row-gap: 20px;
+  }
+
+.addDevBtn{
+    width: 175px;
+    height: 50px;
+    padding: 15px;
+    color: white;
+    background-color: #7C639F;
+    border-radius: 15px;
+    border: none;
+  
+  }

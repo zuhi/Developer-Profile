@@ -1,0 +1,17 @@
+.elementStyle{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  
+.elementStyle * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+hr{
+    width: 1340px;
+    height: 2px;
+  
+    background: #D0CDE1;
+  }

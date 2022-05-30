@@ -1,0 +1,75 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    row-gap: 10px;
+  }
+  
+  .content img{
+    width: 5%;
+    height: 5%;
+  }
+
+  .modal-body {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .Modal-Content {
+    position:absolute;
+    background: white;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding-right: 20%;
+  }
+  
+  .content input[type=text], select, textarea{
+    width: 600px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 15px;
+  }
+  
+  .modelButtons {
+    padding: 20px;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .modelButtons button {
+    width: 175px;
+    height: 50px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .modelButtons button:hover {
+    background-color: #7C639F;
+    color: white;
+  }
+
+  hr {
+      width: 80%;
+  }
